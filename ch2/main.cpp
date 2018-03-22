@@ -3,11 +3,9 @@
 #include "tower.h"
 #include "sizeOf.h"
 
-
-
 int main()
 {
-    //=============== PART ONE: MATH ===============//
+    //=============== PART ONE: MATH IO ===============//
     std::cout << "Enter two floating point numbers and select an operand:" << std::endl;
 
     double x = enterDouble();
@@ -26,18 +24,14 @@ int main()
     distanceFallen(towerHeight, 4);
     distanceFallen(towerHeight, 5);
 
-
-    //=============== PART THREE: SIZES ===============//
+    //=============== PART THREE: SIZEOF ===============//
+    std::cout << "\nSize of Types\n";
     sizeOf();
 
     return 0;
 }
 
-
-
 //=============== PART FOUR: CH2 RULES ===============//
-
-
 
 //Rule: Favor direct initialization over copy initialization
 //Rule: If you’re using a C++11 compatible compiler, favor uniform initialization
