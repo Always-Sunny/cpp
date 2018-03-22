@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ryan/CLionProjects/ch2/constants.h
+
+/Users/ryan/CLionProjects/ch2/io.cpp
+iostream
+-
+
+/Users/ryan/CLionProjects/ch2/io.h
+
+/Users/ryan/CLionProjects/ch2/main.cpp
+iostream
+-
+io.h
+/Users/ryan/CLionProjects/ch2/io.h
+tower.h
+/Users/ryan/CLionProjects/ch2/tower.h
+sizeOf.h
+/Users/ryan/CLionProjects/ch2/sizeOf.h
+
+/Users/ryan/CLionProjects/ch2/sizeOf.cpp
+iostream
+-
+
+/Users/ryan/CLionProjects/ch2/sizeOf.h
+
+/Users/ryan/CLionProjects/ch2/tower.cpp
+iostream
+-
+constants.h
+/Users/ryan/CLionProjects/ch2/constants.h
+
+/Users/ryan/CLionProjects/ch2/tower.h
+
