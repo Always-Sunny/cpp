@@ -6,31 +6,17 @@
 
 double getTowerHeight()
 {
-    std::cout << "Enter the initial height of the tower in meters: \n";
+    std::cout << "Tower Height: ";
     double towerHeight;
     std::cin >> towerHeight;
     return towerHeight;
 }
 
-
-double distanceFallen(double seconds, double towerHeight)
+void distanceFallen(double towerHeight, int seconds)
 {
-    double distanceFallen = (constants::my_gravity * (seconds * seconds)) / 2;
-    double currentHeight = towerHeight - distanceFallen;
-
-    return currentHeight;
-}
-
-void printDistance(double height, int seconds)
-{
-    if (height > 0.0)
-        std::cout << "At " << seconds << " seconds, the ball is at height: " << height << " meters\n";
+    double height = towerHeight - (constants::my_gravity * (seconds * seconds))/2;
+    if (height > 0 )
+        std::cout << height << std::endl;
     else
-        std::cout << "At " << seconds << " seconds, the ball is on the ground.";
-}
-
-void calculateAndPrintResults(double towerHeight, int seconds)
-{
-    double height = distanceFallen(seconds, towerHeight);
-    printDistance(height, seconds);
+        std::cout << "Ground" << std::endl;
 }

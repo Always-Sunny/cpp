@@ -20,11 +20,12 @@ int main()
     //=============== PART TWO: TOWER ===============//
     const double towerHeight = getTowerHeight();
 
-    calculateAndPrintResults(towerHeight, 1);
-    calculateAndPrintResults(towerHeight, 2);
-    calculateAndPrintResults(towerHeight, 3);
-    calculateAndPrintResults(towerHeight, 4);
-    calculateAndPrintResults(towerHeight, 5);
+    distanceFallen(towerHeight, 1);
+    distanceFallen(towerHeight, 2);
+    distanceFallen(towerHeight, 3);
+    distanceFallen(towerHeight, 4);
+    distanceFallen(towerHeight, 5);
+
 
     //=============== PART THREE: SIZES ===============//
     sizeOf();
