@@ -44,3 +44,6 @@ int main() {
     printMonster(goblin);
     return 0;
 }
+
+//if an enumeration is needed in multiple files, it is fine to define the enumeration in a header,
+//and #include that header wherever needed.
