@@ -1,0 +1,3 @@
+/Users/ryan/CLionProjects/ch4Quiz/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/ryan/CLionProjects/ch4Quiz/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/ryan/CLionProjects/ch4Quiz/cmake-build-debug/CMakeFiles/ch4Quiz.dir
